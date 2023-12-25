@@ -1,0 +1,24 @@
+.social {
+    position: absolute;
+    width: 380px;
+    height: 42px;
+    top: 260px;
+    left: 51%;
+    transform: rotate(90deg);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 35px;
+
+    &_link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+}

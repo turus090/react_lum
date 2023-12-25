@@ -1,0 +1,25 @@
+.btn {
+    width: 94px;
+    height: 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+
+    font-family: Lexend Mega;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.theme {
+    &_green {
+        background: #385440;
+        color: #fff;
+    }
+
+    &_light {
+        background: #FDF0F0;
+        color: #000;
+    }
+}

@@ -1,0 +1,81 @@
+.banner {
+    max-width: 350px;
+    width: 90%;
+    margin: 0 auto;
+
+    padding-left: 18px;
+
+
+    &_up {
+        margin-top: 12px;
+        margin-left: 16px;
+        display: flex;
+        column-gap: 18px;
+
+        &_logo {
+            width: 54px;
+            height: 54px;
+
+
+            path {
+                fill: red;
+            }
+        }
+
+        &_title {
+            width: 237px;
+            position: relative;
+            z-index: 1;
+            color: #FFF;
+            font-family: Marck Script;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            span {
+                padding-left: 50px;
+            }
+        }
+    }
+
+    &_wrapper {
+        max-width: 450px;
+        margin: 0 auto;
+        position: relative;
+
+
+
+
+        &_bg {
+            position: absolute;
+            top: 0;
+            left: 130px;
+            z-index: 0;
+
+        }
+    }
+
+    &_text {
+        width: 132px;
+        position: relative;
+        padding-top: 20px;
+        padding-left: 16px;
+        color: #FFF;
+        font-family: Marck Script;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &_btns {
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+        margin-top: 60px;
+        margin-left: 16px;
+        position: relative;
+
+    }
+}
